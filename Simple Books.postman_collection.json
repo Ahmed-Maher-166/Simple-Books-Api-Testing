@@ -422,7 +422,6 @@
           "listen": "test",
           "script": {
             "exec": [
-              "var jsonData = pm.response.json();\r",
               "pm.test(\"Status code is 204\", function () {\r",
               "    pm.response.to.have.status(204);\r",
               "});\r",
@@ -488,7 +487,6 @@
           "listen": "test",
           "script": {
             "exec": [
-              "var jsonData = pm.response.json();\r",
               "pm.test(\"Status code is 204\", function () {\r",
               "    pm.response.to.have.status(204);\r",
               "});\r",
